@@ -4,33 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <a href="./index.html">WebStudio</a>
+      <a class="link logo" href="./index.html"
+        >Web<span class="logo-dark">Studio</span></a
+      >
 
       <nav>
         <ul class="list">
           <li class="item">
-            <a class="link" href="#">Студія</a>
+            <a class="link header-menu" href="./index.html">Студія</a>
           </li>
           <li class="item">
-            <a class="link" href="#">Портфоліо</a>
+            <a class="link header-menu" href="./portfolio.html">Портфоліо</a>
           </li>
           <li class="item">
-            <a class="link" href="#">Контакти</a>
+            <a class="link header-menu" href="#">Контакти</a>
           </li>
         </ul>
       </nav>
 
       <ul class="list">
         <li class="item">
-          <a class="link" href="mailto:info@devstudio.com"
+          <a class="link header-menu" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li class="item">
-          <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="link header-menu" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
@@ -43,28 +56,28 @@
       </section>
 
       <section class="feature">
-        <ul class="list">
-          <li class="item">
+        <ul class="feature-list">
+          <li class="feature-item">
             <h3 class="item-title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="item-description">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li class="item">
+          <li class="feature-item">
             <h3 class="item-title">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="item-description">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li class="item">
+          <li class="feature-item">
             <h3 class="item-title">ПЛАНУВАННЯ</h3>
             <p class="item-description">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li class="item">
+          <li class="feature-item">
             <h3 class="item-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="item-description">
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -77,8 +90,8 @@
       <section class="about">
         <div class="about-group">
           <h2 class="about-title">Чим ми займаємося</h2>
-          <ul class="list">
-            <li class="item">
+          <ul class="about-list">
+            <li class="about-item">
               <img
                 class="about-img"
                 src="./images/about/img-1.jpg"
@@ -87,7 +100,7 @@
                 height="294"
               />
             </li>
-            <li class="item">
+            <li class="about-item">
               <img
                 class="about-img"
                 src="./images/about/img-2.jpg"
@@ -96,7 +109,7 @@
                 height="294"
               />
             </li>
-            <li class="item">
+            <li class="about-item">
               <img
                 class="about-img"
                 src="./images/about/img-3.jpg"
@@ -168,17 +181,21 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="link" href="./index.html">WebStudio</a>
+      <a class="link logo" href="./index.html"
+        >Web<span class="logo-white">Studio</span></a
+      >
       <address class="address">
-        м. Київ, пр-т Лесі Українки, 26
-        <ul class="list">
-          <li class="item">
-            <a class="link" href="mailto:info@devstudio.com"
+        <p class="adr">м. Київ, пр-т Лесі Українки, 26</p>
+        <ul class="address-list">
+          <li class="address-item">
+            <a class="link address-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+          <li class="address-item">
+            <a class="link address-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </address>
