@@ -21,7 +21,8 @@ li {
     list-style: none;
 }
 
-.link {
+.link,
+.content-item a {
     text-decoration: none;
 }
 
@@ -45,16 +46,36 @@ li {
 .header-menu {
     color: var(--dark-color);
     font-family: var(--main-font);
-    /* font-size: 14px; */
+    font-size: 14px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
 }
 
+
 .header-menu:hover,
 .header-menu:focus {
     color: var(--accent-cl);
 }
+
+.header-menu.current {
+    color: var(--accent-cl);
+}
+
+.contacts-menu {
+color: var(--main-txt-cl);
+font-family: var(--main-font);
+font-size: 14px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+.contacts-menu:hover,
+.contacts-menu:focus {
+    color: var(--accent-cl);
+}
+
 
 /* --------------------
        HERO
@@ -99,7 +120,7 @@ li {
 .item-title {
 color: var(--dark-color);
 font-family: var(--main-font);
-/* font-size: 14px; */
+font-size: 14px;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.42px;
@@ -109,7 +130,7 @@ text-transform: uppercase;
 .item-description {
     color: #757575;
     font-family: var(--main-font);
-    /* font-size: 14px; */
+    font-size: 14px;
     line-height: 1.7em;
     letter-spacing: 0.42px;
 }
@@ -143,7 +164,6 @@ letter-spacing: 1.08px;
     background: var(--white-color);
     text-align: center;
     font-family: var(--main-font);
-    font-size: 16px;
     line-height: normal;
     letter-spacing: 0.48px;
     
@@ -153,10 +173,12 @@ letter-spacing: 1.08px;
 .member-title {
     color: var(--dark-color);
     font-weight: 500;
+    font-size: 16px;
 }
 
 .member-position {
     color: var(--main-txt-cl);
+    font-size: 16px;
        
 }
 
@@ -195,14 +217,14 @@ letter-spacing: 0.48px;
     color: var(--dark-color);
     font-size: 18px;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 2em;
     letter-spacing: 1.08px;
 }
 
 .description-subtitle {
     color: var(--main-txt-cl);
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87em;
     letter-spacing: 0.48px;
 }
 
@@ -218,7 +240,7 @@ letter-spacing: 0.48px;
     color: var(--white-color);
     font-style: normal;
     font-size: 14px; 
-    line-height: 24px;
+    line-height: 1.71em;
     letter-spacing: 0.42px;
 }
 
